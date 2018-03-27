@@ -23,6 +23,8 @@ app.get('/', (req, res) => {
   res.send('hello world')
 })
 
-app.listen(3002, () => {
-  console.log('app listening on port 3002')
+app.set('port', process.env.PORT || 3002)
+
+app.listen(app.get('port'), () => {
+  console.log(`✅ PORT: ${app.get('port')} 🌟`)
 })
