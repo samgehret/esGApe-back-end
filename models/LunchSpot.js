@@ -4,14 +4,14 @@ const LunchSpotSchema = new mongoose.Schema({
   name: String,
   address: String,
   website: String,
+  description: String,
+  distance: String,
+  foodType: String,
   lunchPrice: Number,
   recommendedItems: String,
-  foodType: String,
   ambiance: String,
-  description: String,
   crowds: String,
-  seating: String,
-  distance: String
+  seating: String
 })
 
 const LunchSpot = mongoose.model('LunchSpot', LunchSpotSchema)

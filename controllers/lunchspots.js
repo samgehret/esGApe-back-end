@@ -12,4 +12,13 @@ router.get('/:id', (req, res) => {
     .then(lunchspot => res.json(lunchspot))
 })
 
+router.post('/', (req, res) => {
+  LunchSpot.create(req.body).then(lunchspot => res.json(lunchspot))
+  .then(() => {
+    res.redirect('/')
+  })
+  // might not need next line?
+  // LunchspotSpot.find({}).then(lunchspot => res.json(lunchspot))
+})
+
 module.exports = router
