@@ -4,6 +4,7 @@ const bodyParser = require('body-parser')
 // added user controller. is .js required?
 const userController = require('./controllers/users')
 const lunchSpotsController = require('./controllers/lunchspots')
+const happyHoursController = require('./controllers/happyhours')
 const cors = require('cors')
 
 
@@ -14,6 +15,7 @@ app.use(bodyParser())
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(cors())
 app.use('/lunchspots', lunchSpotsController)
+app.use('/happyhours', happyHoursController)
 // added user controller route
 app.use('/users', userController)
 
