@@ -7,4 +7,9 @@ router.get('/', (req, res) => {
     .then(lunchspots => res.json(lunchspots))
 })
 
+router.get('/:id', (req, res) => {
+  LunchSpot.findOne({_id: req.params.id})
+    .then(hike => res.json(hike))
+})
+
 module.exports = router
