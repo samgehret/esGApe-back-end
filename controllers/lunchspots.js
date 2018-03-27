@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
 
 router.get('/:id', (req, res) => {
   LunchSpot.findOne({_id: req.params.id})
-    .then(hike => res.json(hike))
+    .then(lunchspot => res.json(lunchspot))
 })
 
 module.exports = router
