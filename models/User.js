@@ -5,6 +5,6 @@ const UserSchema = new mongoose.Schema({
     password: String
 })
 
-const User = mongoose.model('User', UserSchema)
-// should this be mongoose?
-module.exports = User
+mongoose.model('User', UserSchema)
+// should this be like the other models?
+module.exports = mongoose
