@@ -1,10 +1,21 @@
 const express = require('express')
 const app = express()
+const bodyParser = require('body-parser')
+// added user controller. is .js required?
+const userController = require('./controllers/users')
 const lunchSpotsController = require('./controllers/lunchspots')
 const cors = require('cors')
 
+
+// JWT / passport dependencies
+const passport = require('./config/passport')()
+app.use(passport.initialize())
+app.use(bodyParser())
+app.use(bodyParser.urlencoded({extended: true}))
 app.use(cors())
 app.use('/lunchspots', lunchSpotsController)
+// added user controller route
+app.use('/users', userController)
 
 app.get('/', (req, res) => {
   res.send('hello world')
