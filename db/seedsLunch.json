@@ -9,7 +9,12 @@
         "ambiance": "Order at the counter and pickup food in about 5 minutes. Ample seating for groups",
         "description": "A fast casual establishment, only 2 blocks from GA. Very good international food, at a reasonable price. Large portions. Can't go wrong here",
         "crowds": "Never too crowded. Sometimes a slight line during lunch rush. Can always find seating.",
-        "distance": "2 blocks from GA"
+        "distance": "2 blocks from GA",
+        "comments": 
+        [
+            {"commentText": "test comment"},
+            {"commentText": "test comment2"}
+        ]
 
     },
     {
@@ -22,7 +27,8 @@
         "ambiance": "Order at the designated area. Watch them make your sandwich and pay for it when its done.",
         "description": "A pretty standard sandwhich shop. Can get almost any sandwich you want. They guarantee you to move through the line in under 8 minutes",
         "crowds": "Always throug the line quickly. Seating fills up during lunch rush.",
-        "distance": "3 blocks from GA"
+        "distance": "3 blocks from GA",
+        "comments": [{"commentText": "test comment"}]
 
     }
 ]

@@ -12,6 +12,15 @@ router.get('/:id', (req, res) => {
     .then(lunchspot => res.json(lunchspot))
 })
 
+router.put('/comments/:id', (req, res) => {
+  LunchSpot.findOne({ _id: req.params.id })
+    .then(lunchspot => {
+      lunchspot.comments.push({
+        commentText: req.body.comment
+      })
+      lunchspot.save()
+    })
+})
 router.post('/', (req, res) => {
   LunchSpot.create(req.body).then(lunchspot => res.json(lunchspot))
 })
