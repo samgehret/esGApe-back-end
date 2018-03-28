@@ -12,7 +12,7 @@ const LunchSpotSchema = new mongoose.Schema({
   distance: String,
   foodType: String,
   author: String,
-  comments: [CommentsSchema]
+  comments: [CommentsSchema],
   createdAt: { type: Date, default: Date.now }
 })
 
