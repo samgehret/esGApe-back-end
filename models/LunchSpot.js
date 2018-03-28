@@ -7,11 +7,8 @@ const LunchSpotSchema = new mongoose.Schema({
   description: String,
   distance: String,
   foodType: String,
-  lunchPrice: Number,
-  recommendedItems: String,
-  ambiance: String,
-  crowds: String,
-  seating: String
+  author: String,
+  createdAt: { type: Date, default: Date.now }
 })
 
 const LunchSpot = mongoose.model('LunchSpot', LunchSpotSchema)
