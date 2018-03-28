@@ -20,6 +20,8 @@ router.put('/comments/:id', (req, res) => {
       })
       lunchspot.save()
     })
+router.post('/', (req, res) => {
+  LunchSpot.create(req.body).then(lunchspot => res.json(lunchspot))
 })
 
 module.exports = router

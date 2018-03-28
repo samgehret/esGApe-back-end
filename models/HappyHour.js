@@ -4,12 +4,11 @@ const HappyHourSchema = new mongoose.Schema({
   name: String,
   address: String,
   website: String,
-  drinkPrice: String,
-  ambiance: String,
   description: String,
-  crowds: String,
-  seating: String,
-  distance: String
+  distance: String,
+  foodType: String,
+  author: String,
+  createdAt: { type: Date, default: Date.now }
 })
 
 const HappyHour = mongoose.model('HappyHour', HappyHourSchema)
