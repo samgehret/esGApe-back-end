@@ -13,7 +13,8 @@ router.get('/:id', (req, res) => {
 })
 
 router.post('/', (req, res) => {
-  HappyHour.create(req.body).then(happyhour => res.json(happyhour))
+  HappyHour.create(req.body)
+  .then(happyhour => res.json(happyhour))
 })
 
 module.exports = router

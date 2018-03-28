@@ -13,7 +13,12 @@ router.get('/:id', (req, res) => {
 })
 
 router.post('/', (req, res) => {
-  LunchSpot.create(req.body).then(lunchspot => res.json(lunchspot))
+  LunchSpot.create(req.body)
+  .then(lunchspot => res.json(lunchspot))
 })
 
+router.delete('/:id', (req, res) => {
+  LunchSpot.findOneAndRemove({_id: req.params.id})
+  .then(lunchspot => res.json(lunchspot))
+})
 module.exports = router
