@@ -6,13 +6,14 @@ const userController = require('./controllers/users')
 const lunchSpotsController = require('./controllers/lunchspots')
 const happyHoursController = require('./controllers/happyhours')
 const cors = require('cors')
-
+const methodOverride = require('method-override')
 
 // JWT / passport dependencies
 const passport = require('./config/passport')()
 app.use(passport.initialize())
 app.use(bodyParser())
 app.use(bodyParser.urlencoded({extended: true}))
+app.use(methodOverride('_method'))
 app.use(cors())
 app.use('/lunchspots', lunchSpotsController)
 app.use('/happyhours', happyHoursController)
