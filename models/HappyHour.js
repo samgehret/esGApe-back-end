@@ -9,7 +9,8 @@ const HappyHourSchema = new mongoose.Schema({
   drinkPrice: String,
   ambiance: String,
   crowds: String,
-  seating: String
+  seating: String,
+  author: String
 })
 
 const HappyHour = mongoose.model('HappyHour', HappyHourSchema)

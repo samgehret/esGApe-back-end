@@ -7,6 +7,7 @@ const LunchSpotSchema = new mongoose.Schema({
   description: String,
   distance: String,
   foodType: String,
+  author: String,
   lunchPrice: Number,
   recommendedItems: String,
   ambiance: String,
