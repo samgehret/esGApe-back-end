@@ -35,7 +35,7 @@ router.post('/signup', (req, res) => {
                               token: token
                             })
                           } else {
-                            res.sendStatus(401)
+                            res.sendStatus(404)
                           }
                         })
               } else {
@@ -43,7 +43,7 @@ router.post('/signup', (req, res) => {
               }
             })
   } else {
-    res.sendStatus(401)
+    res.sendStatus(400)
   }
 })
 
@@ -64,14 +64,14 @@ router.post('/login', (req, res) => {
             token: token
           })
         } else {
-          res.sendStatus(401)
+          res.sendStatus(404)
         }
       } else {
         res.sendStatus(401)
       }
     })
   } else {
-    res.sendStatus(401)
+    res.sendStatus(400)
   }
 })
 module.exports = router
