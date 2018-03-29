@@ -16,7 +16,7 @@ router.post('/signup', (req, res) => {
       email: req.body.email,
       password: req.body.password
     }
-        // check if form email is already in use
+        // check if form email is already in use ? or not
     User.findOne({email: req.body.email})
             .then((user) => {
                 // if not, create newUser with that email
@@ -35,7 +35,7 @@ router.post('/signup', (req, res) => {
                               token: token
                             })
                           } else {
-                            res.sendStatus(401)
+                            res.sendStatus(404)
                           }
                         })
               } else {
@@ -43,7 +43,7 @@ router.post('/signup', (req, res) => {
               }
             })
   } else {
-    res.sendStatus(401)
+    res.sendStatus(400)
   }
 })
 
@@ -64,14 +64,14 @@ router.post('/login', (req, res) => {
             token: token
           })
         } else {
-          res.sendStatus(401)
+          res.sendStatus(404)
         }
       } else {
         res.sendStatus(401)
       }
     })
   } else {
-    res.sendStatus(401)
+    res.sendStatus(400)
   }
 })
 module.exports = router
