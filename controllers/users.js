@@ -16,7 +16,7 @@ router.post('/signup', (req, res) => {
       email: req.body.email,
       password: req.body.password
     }
-        // check if form email is already in use
+        // check if form email is already in use ? or not
     User.findOne({email: req.body.email})
             .then((user) => {
                 // if not, create newUser with that email
