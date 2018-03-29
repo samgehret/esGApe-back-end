@@ -11,6 +11,12 @@ router.get('/:id', (req, res) => {
   LunchSpot.findOne({_id: req.params.id})
     .then(lunchspot => res.json(lunchspot))
 })
+router.put('/:id', (req, res) => {
+  LunchSpot.findOneAndUpdate({_id: req.params.id}, req.body)
+  .then(lunchspot => {
+    res.json(lunchspot)
+  })
+})
 
 router.put('/comments/:id', (req, res) => {
   LunchSpot.findOne({ _id: req.params.id })
@@ -22,7 +28,13 @@ router.put('/comments/:id', (req, res) => {
     })
 })
 router.post('/', (req, res) => {
-  LunchSpot.create(req.body).then(lunchspot => res.json(lunchspot))
+  LunchSpot.create(req.body)
+  .then(lunchspot => res.json(lunchspot))
+})
+
+router.delete('/:id', (req, res) => {
+  LunchSpot.findOneAndRemove({_id: req.params.id})
+  .then(lunchspot => res.json(lunchspot))
 })
 
 module.exports = router
