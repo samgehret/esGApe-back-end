@@ -8,7 +8,8 @@
         "description": "This is by far the closest bar to GA. Its a dive bar with poor service and random happy hour deals every night. Be careful on Friday night there are NO BEERS SPECIALS. Feel like drinks here should be less expensive than they are...",
         "crowds": "Fills up for lunch and for happy hour. Can be difficult to find a seat",
         "distance": "1 block from GA",
-        "deals": "Friday after work is Absolute drinks for a reduced rate"
+        "deals": "Friday after work is Absolute drinks for a reduced rate",
+        "Author": "Sam Cooke"
     },
     {
         "name": "Stoney's",
@@ -19,7 +20,55 @@
         "description": "Not too far from GA. Great deals from 5-7. Can't go wrong with this place.",
         "crowds": "Unknown",
         "distance": "3 blocks from GA",
-        "deals": "5-7pm: $3 Drafts of Stoney's Amber, Shocktop; $3 Narragansett Tallboys; $4 Goose Island Drafts; $4 Rail Cocktails; $4 House Red or White Wine; $15 Wing Platter (20 Wings); $5 Grilled Cheese & Fries; $6 Onion Rings; 3 Sliders for $9; $5 Personal Pizza; $9 Large Pizza"
-
+        "deals": "5-7pm: $3 Drafts of Stoney's Amber, Shocktop; $3 Narragansett Tallboys; $4 Goose Island Drafts; $4 Rail Cocktails; $4 House Red or White Wine; $15 Wing Platter (20 Wings); $5 Grilled Cheese & Fries; $6 Onion Rings; 3 Sliders for $9; $5 Personal Pizza; $9 Large Pizza",
+        "Author": "James Brown"
+    },
+    {
+        "name": "Fire and Sage",
+        "address": "775 12th St NW, Washington, DC 20005",
+        "website": "https://www.opentable.com/fire-and-sage?ref=1068&page=1",
+        "drinkPrice": 7,
+        "ambiance": "Lively atmosphere.",
+        "description": "Not too far from GA. Great deals from 5-7. Can't go wrong with this place.",
+        "crowds": "Unknown",
+        "distance": "3 blocks from GA",
+        "deals": "5-7pm: $3 Drafts of Stoney's Amber, Shocktop; $3 Narragansett Tallboys; $4 Goose Island Drafts; $4 Rail Cocktails; $4 House Red or White Wine; $15 Wing Platter (20 Wings); $5 Grilled Cheese & Fries; $6 Onion Rings; 3 Sliders for $9; $5 Personal Pizza; $9 Large Pizza",
+        "Author": "Michael Jackson"
+    },
+    {
+        "name": "Fire and Sage",
+        "address": "775 12th St NW, Washington, DC 20005",
+        "website": "http://www.fireandsage.com/ ",
+        "drinkPrice": 7,
+        "ambiance": "Lively atmosphere.",
+        "description": "Not too far from GA. Great deals from 5-7. Can't go wrong with this place.",
+        "crowds": "Unknown",
+        "distance": "Near Metro Center",
+        "deals": "5-7pm: $3 Drafts of Stoney's Amber, Shocktop; $3 Narragansett Tallboys; $4 Goose Island Drafts; $4 Rail Cocktails; $4 House Red or White Wine; $15 Wing Platter (20 Wings); $5 Grilled Cheese & Fries; $6 Onion Rings; 3 Sliders for $9; $5 Personal Pizza; $9 Large Pizza",
+        "Author": "Jill Scott"
+    },
+    {
+        "name": "Cafe Soleil",
+        "address": "839 17th St NW, Washington, DC 20006",
+        "website": "http://www.cafesoleildc.com/menu/dining-menu/",
+        "drinkPrice": 8,
+        "ambiance": "Cozy ambiance",
+        "description": "Great food and nice atmosphere. Dress code is not well enforced.",
+        "crowds": "Unknown",
+        "distance": "3 blocks from GA",
+        "deals": "5-7pm: $3 Drafts of Stoney's Amber, Shocktop; $3 Narragansett Tallboys; $4 Goose Island Drafts; $4 Rail Cocktails; $4 House Red or White Wine; $15 Wing Platter (20 Wings); $5 Grilled Cheese & Fries; $6 Onion Rings; 3 Sliders for $9; $5 Personal Pizza; $9 Large Pizza",
+        "Author": "Paul Simon"
+    },
+    {
+        "name": "Post Pub",
+        "address": "1422 L St NW, Washington, DC 20005",
+        "website": "https://postpubdc.com/",
+        "drinkPrice": 8,
+        "ambiance": "Feels like a local bar",
+        "description": "Great laid back atmosphere, affordable pub food, and friendly service.",
+        "crowds": "Unknown",
+        "distance": "A block away from GA",
+        "deals": "There are daily happy hour specials and Sam drafts are $3.95 all day Monday",
+        "Author": "Phil Collins"
     }
 ]
