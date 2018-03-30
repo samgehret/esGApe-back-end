@@ -101,5 +101,19 @@
         "distance": "4 blocks from GA",
         "comments": [{"commentText": "test comment"}],
         "Author": "Sadio Mane"
+    },
+    {
+        "name": "Brown Bag",
+        "address": "1099 14th St NW, Washington, DC 20005",
+        "website": "https://brownbagonline.com/",
+        "lunchPrice": 8,
+        "recommendedItems": "Breakfast burrito",
+        "foodType": "Burrito",
+        "ambiance": "Friendly staff and a laid back atmosphere",
+        "description": "Great lunches everyday. Fresh ingredients and price was good considering the location.",
+        "crowds": "Great place!",
+        "distance": "1 blocks from GA",
+        "comments": [{"commentText": "test comment"}],
+        "Author": "Jordan Henderson"
     }
 ]
