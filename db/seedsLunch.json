@@ -14,8 +14,8 @@
         [
             {"commentText": "test comment"},
             {"commentText": "test comment2"}
-        ]
-
+        ],
+        "Author": "Sambo"
     },
     {
         "name": "PotBelly",
@@ -26,9 +26,94 @@
         "foodType": "Sandwiches",
         "ambiance": "Order at the designated area. Watch them make your sandwich and pay for it when its done.",
         "description": "A pretty standard sandwhich shop. Can get almost any sandwich you want. They guarantee you to move through the line in under 8 minutes",
-        "crowds": "Always throug the line quickly. Seating fills up during lunch rush.",
+        "crowds": "Always through the line quickly. Seating fills up during lunch rush.",
         "distance": "3 blocks from GA",
-        "comments": [{"commentText": "test comment"}]
+        "comments": [{"commentText": "test comment"}],
+        "Author": "Steven Gerrard"
 
+    },
+    {
+        "name": "Au Bon Pain",
+        "address": "1101 Vermont Ave NW, Washington, DC 20005",
+        "website": "https://www.aubonpain.com/",
+        "lunchPrice": 7,
+        "recommendedItems": "Thai Peanut Chicken wrap recommended",
+        "foodType": "Sandwiches",
+        "ambiance": "Good variety,  lots of different food options,  relatively fast service and interesting seasonal menu.",
+        "description": "Great service, tasty food, perfect location.",
+        "crowds": "Always through the line quickly. Seating fills up during lunch rush.",
+        "distance": "2 blocks from GA",
+        "comments": [{"commentText": "test comment"}],
+        "Author": "Fernando Torres"
+    },
+    {
+        "name": "Cosi",
+        "address": "1501 K St NW, Washington, DC 20005",
+        "website": "https://www.getcosi.com/",
+        "lunchPrice": 8,
+        "recommendedItems": "Specialty salad with pears and gorgonzola cheese",
+        "foodType": "Sandwiches",
+        "ambiance": "Internet connection was pretty good. Product quality is very good, customer service is very good, and general vibe is very good.",
+        "description": "They have breakfast, coffee and teas, salads, wraps, paninis and more.",
+        "crowds": "If you're going for lunch with a big crew be sure to add some time  to the wait as it gets pretty busy for lunch.",
+        "distance": "2 blocks from GA",
+        "comments": [{"commentText": "test comment"}],
+        "Author": "Luis Suarez"
+    },
+    {
+        "name": "Yafa Grille",
+        "address": "1400 I St NW, Washington, DC 20005",
+        "website": "http://places.singleplatform.com/yafa-grille/menu?ref=google",
+        "lunchPrice": 8,
+        "recommendedItems": "Falafel platter",
+        "foodType": "Middle Eastern food",
+        "ambiance": "Variety was good (server was very helpful in recommending my first order), prices very reasonable for quantity and location and, of course, food was fresh, tasty and nutritious",
+        "description": "Yafa Grill is the Chipotle for Middle Eastern food located off of Franklin Square Park in downtown DC.",
+        "crowds": "Quick service. Short lines. Outdoor seatings",
+        "distance": "5 blocks from GA",
+        "comments": [{"commentText": "test comment"}],
+        "Author": "Mo Salah"
+    },
+    {
+        "name": "Corner Bakery Cafe",
+        "address": "1425 K St NW, Washington, DC 20005",
+        "website": "https://www.cornerbakerycafe.com/",
+        "lunchPrice": 8,
+        "recommendedItems": "Harvest salad and meatball panini",
+        "foodType": "Sandwiches",
+        "ambiance": "Good options for breakfast, friendly staff and a laid back atmosphere",
+        "description": "The service was great, all the personal was looking to give you the best attention. Everything I tried on their menu was amazing.",
+        "crowds": "Quick service. Short lines. Outdoor seatings",
+        "distance": "2 blocks from GA",
+        "comments": [{"commentText": "test comment"}],
+        "Author": "Roberto Firminho"
+    },
+    {
+        "name": "Lalibela",
+        "address": "1415 14th St NW, Washington, DC 20005",
+        "website": "http://www.globeater.com/view-restaurant/?restaurant_name=Lalibela%20Ethiopian%20-%20D.C&id=1342",
+        "lunchPrice": 12,
+        "recommendedItems": "Vegiterian Combo",
+        "foodType": "Ethiopian",
+        "ambiance": "Friendly staff and a laid back atmosphere",
+        "description": "Got the platter for four to share and it was more than enough food, and we all were incredibly satisfied. A pretty good value too",
+        "crowds": "Great place! Fast, friendly service.",
+        "distance": "4 blocks from GA",
+        "comments": [{"commentText": "test comment"}],
+        "Author": "Sadio Mane"
+    },
+    {
+        "name": "Brown Bag",
+        "address": "1099 14th St NW, Washington, DC 20005",
+        "website": "https://brownbagonline.com/",
+        "lunchPrice": 8,
+        "recommendedItems": "Breakfast burrito",
+        "foodType": "Burrito",
+        "ambiance": "Friendly staff and a laid back atmosphere",
+        "description": "Great lunches everyday. Fresh ingredients and price was good considering the location.",
+        "crowds": "Great place!",
+        "distance": "1 blocks from GA",
+        "comments": [{"commentText": "test comment"}],
+        "Author": "Jordan Henderson"
     }
 ]
